@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Email-Connector-Claude</title>
+  <meta name="description" content="Multi-Email-Connector-Claude lets the Claude desktop app work with several Gmail accounts at once.">
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="">
+    <a class="brand" href="./">Multi-Email-Connector-Claude</a>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="logo.png" alt="Multi-Email-Connector-Claude logo">
+      <h1>Multi-Email-Connector-Claude</h1>
+      <p class="lead">Use several Gmail accounts together inside the Claude desktop app.</p>
+    </section>
+
+    <div class="card">
+      <h2>What it does</h2>
+      <p>Multi-Email-Connector-Claude is a small connector (an MCP server) that runs on your own computer. Once you sign in to each of your Gmail accounts with Google, Claude can work across all of them. When you ask, it can:</p>
+      <ul>
+        <li>search one or all of your inboxes at once</li>
+        <li>read emails and conversation threads</li>
+        <li>write drafts and send replies from the right account</li>
+        <li>mark messages read, archive, star, apply labels, or move messages to Trash</li>
+      </ul>
+
+      <h2>How your data is handled</h2>
+      <p>The connector runs only on your computer. Google sign-in tokens are stored locally on your device, and email data goes directly between your computer and Google's Gmail API. There is no separate server, and the developer never receives your data. Email content is passed to Claude only when you ask Claude to do something with your email. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+      <h2>Google permissions</h2>
+      <p>The app requests the Gmail <code>gmail.modify</code> scope so that it can read, compose, send and organize your email. It cannot permanently delete messages. You can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+    </div>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <span>Contact: <a href="mailto:c.crichton4.biz@gmail.com">c.crichton4.biz@gmail.com</a></span>
+  </footer>
+</body>
+</html>
